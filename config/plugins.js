@@ -1,1 +1,3 @@
-module.exports = () => ({});
+module.exports = ({env}) => ({
+    jwtSecret: env('JWT_SECRET'),
+});
