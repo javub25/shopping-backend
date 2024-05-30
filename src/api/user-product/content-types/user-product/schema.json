@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_products",
+  "info": {
+    "singularName": "user-product",
+    "pluralName": "user-products",
+    "displayName": "UserProduct"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "productsId": {
+      "type": "json"
+    }
+  }
+}
